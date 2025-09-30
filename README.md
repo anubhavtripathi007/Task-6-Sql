@@ -1,22 +1,9 @@
-# Task 6 - SQL Developer Internship
-
-## Objective
-Practice writing **subqueries** (scalar, correlated, nested) in SQL to filter and analyze data.
-
 ## Key Concepts Practiced
 - Scalar subqueries → return a single value
 - Subqueries with IN, EXISTS, =
 - Correlated subqueries (row-by-row evaluation)
 - Derived tables using subquery in FROM
 - Nested subqueries
-
-## Files Included
-- **queries.sql** → Contains table creation, sample data, and subquery examples.
-- **screenshots/** (optional) → Output screenshots from DB Browser / MySQL Workbench.
-
-## Tools Used
-- DB Browser for SQLite  
-- MySQL Workbench  
 
 ## Example Queries
 ```sql
@@ -34,9 +21,3 @@ WHERE salary = (
 );
 ```
 
-## Outcome
-By completing this task, I learned how to:
-- Use subqueries in SELECT, WHERE, and FROM
-- Differentiate between scalar and correlated subqueries
-- Apply EXISTS for conditional filtering
-- Create derived tables from subqueries
