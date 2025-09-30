@@ -1,7 +1,3 @@
--- Task 6: SQL Developer Internship
--- Subqueries and Nested Queries
-
--- Sample tables
 CREATE TABLE Employees (
     emp_id INT PRIMARY KEY,
     emp_name VARCHAR(100),
